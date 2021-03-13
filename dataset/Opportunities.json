@@ -1,0 +1,434 @@
+{
+	"name": "Opportunities",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Opportunities",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Opportunities.xlsx",
+				"container": "crmdata"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "(Do Not Modify) Opportunity",
+				"type": "String"
+			},
+			{
+				"name": "(Do Not Modify) Row Checksum",
+				"type": "String"
+			},
+			{
+				"name": "(Do Not Modify) Modified On",
+				"type": "String"
+			},
+			{
+				"name": "Topic",
+				"type": "String"
+			},
+			{
+				"name": "Potential Customer",
+				"type": "String"
+			},
+			{
+				"name": "Est. Revenue",
+				"type": "String"
+			},
+			{
+				"name": "Status Reason",
+				"type": "String"
+			},
+			{
+				"name": "(Deprecated) Stage Id",
+				"type": "String"
+			},
+			{
+				"name": "Account",
+				"type": "String"
+			},
+			{
+				"name": "Account Manager",
+				"type": "String"
+			},
+			{
+				"name": "Actual Close Date",
+				"type": "String"
+			},
+			{
+				"name": "Actual Revenue",
+				"type": "String"
+			},
+			{
+				"name": "Actual Revenue (Base)",
+				"type": "String"
+			},
+			{
+				"name": "Budget",
+				"type": "String"
+			},
+			{
+				"name": "Budget Amount",
+				"type": "String"
+			},
+			{
+				"name": "Budget Amount (Base)",
+				"type": "String"
+			},
+			{
+				"name": "Complete Internal Review",
+				"type": "String"
+			},
+			{
+				"name": "Confirm Interest",
+				"type": "String"
+			},
+			{
+				"name": "Contact",
+				"type": "String"
+			},
+			{
+				"name": "Contracting Unit",
+				"type": "String"
+			},
+			{
+				"name": "Created By",
+				"type": "String"
+			},
+			{
+				"name": "Created By (Delegate)",
+				"type": "String"
+			},
+			{
+				"name": "Created On",
+				"type": "String"
+			},
+			{
+				"name": "Currency",
+				"type": "String"
+			},
+			{
+				"name": "Current Situation",
+				"type": "String"
+			},
+			{
+				"name": "Customer Need",
+				"type": "String"
+			},
+			{
+				"name": "Customer Pain Points",
+				"type": "String"
+			},
+			{
+				"name": "Decide Go/No-Go",
+				"type": "String"
+			},
+			{
+				"name": "Decision Maker?",
+				"type": "String"
+			},
+			{
+				"name": "Description",
+				"type": "String"
+			},
+			{
+				"name": "Develop Proposal",
+				"type": "String"
+			},
+			{
+				"name": "Email Address",
+				"type": "String"
+			},
+			{
+				"name": "Est. Close Date",
+				"type": "String"
+			},
+			{
+				"name": "Est. Revenue (Base)",
+				"type": "String"
+			},
+			{
+				"name": "Evaluate Fit",
+				"type": "String"
+			},
+			{
+				"name": "Exchange Rate",
+				"type": "String"
+			},
+			{
+				"name": "Feedback Resolved",
+				"type": "String"
+			},
+			{
+				"name": "File Debrief",
+				"type": "String"
+			},
+			{
+				"name": "Final Decision Date",
+				"type": "String"
+			},
+			{
+				"name": "Final Proposal Ready",
+				"type": "String"
+			},
+			{
+				"name": "Forecast",
+				"type": "String"
+			},
+			{
+				"name": "Forecast (Base)",
+				"type": "String"
+			},
+			{
+				"name": "Forecast category",
+				"type": "String"
+			},
+			{
+				"name": "Freight Amount",
+				"type": "String"
+			},
+			{
+				"name": "Freight Amount (Base)",
+				"type": "String"
+			},
+			{
+				"name": "Identify Competitors",
+				"type": "String"
+			},
+			{
+				"name": "Identify Customer Contacts",
+				"type": "String"
+			},
+			{
+				"name": "Identify Sales Team",
+				"type": "String"
+			},
+			{
+				"name": "Initial Communication",
+				"type": "String"
+			},
+			{
+				"name": "Last On Hold Time",
+				"type": "String"
+			},
+			{
+				"name": "Modified By",
+				"type": "String"
+			},
+			{
+				"name": "Modified By (Delegate)",
+				"type": "String"
+			},
+			{
+				"name": "Modified On",
+				"type": "String"
+			},
+			{
+				"name": "Need",
+				"type": "String"
+			},
+			{
+				"name": "On Hold Time (Minutes)",
+				"type": "String"
+			},
+			{
+				"name": "Opportunity Discount (%)",
+				"type": "String"
+			},
+			{
+				"name": "Opportunity Discount Amount",
+				"type": "String"
+			},
+			{
+				"name": "Opportunity Discount Amount (Base)",
+				"type": "String"
+			},
+			{
+				"name": "Order Type",
+				"type": "String"
+			},
+			{
+				"name": "Originating Lead",
+				"type": "String"
+			},
+			{
+				"name": "Owner",
+				"type": "String"
+			},
+			{
+				"name": "Pipeline Phase",
+				"type": "String"
+			},
+			{
+				"name": "Present Final Proposal",
+				"type": "String"
+			},
+			{
+				"name": "Presented Proposal",
+				"type": "String"
+			},
+			{
+				"name": "Price List",
+				"type": "String"
+			},
+			{
+				"name": "Priority",
+				"type": "String"
+			},
+			{
+				"name": "Probability",
+				"type": "String"
+			},
+			{
+				"name": "Process Code",
+				"type": "String"
+			},
+			{
+				"name": "Process Id",
+				"type": "String"
+			},
+			{
+				"name": "Proposal Feedback Captured",
+				"type": "String"
+			},
+			{
+				"name": "Proposed Solution",
+				"type": "String"
+			},
+			{
+				"name": "Purchase Process",
+				"type": "String"
+			},
+			{
+				"name": "Purchase Timeframe",
+				"type": "String"
+			},
+			{
+				"name": "Qualification Comments",
+				"type": "String"
+			},
+			{
+				"name": "Quote Comments",
+				"type": "String"
+			},
+			{
+				"name": "Rating",
+				"type": "String"
+			},
+			{
+				"name": "Record Created On",
+				"type": "String"
+			},
+			{
+				"name": "Revenue",
+				"type": "String"
+			},
+			{
+				"name": "Sales Stage",
+				"type": "String"
+			},
+			{
+				"name": "Schedule Proposal Meeting",
+				"type": "String"
+			},
+			{
+				"name": "Scheduled Follow up (Prospect)",
+				"type": "String"
+			},
+			{
+				"name": "Scheduled Follow up (Qualify)",
+				"type": "String"
+			},
+			{
+				"name": "Send Thank You Note",
+				"type": "String"
+			},
+			{
+				"name": "SLA",
+				"type": "String"
+			},
+			{
+				"name": "Source Campaign",
+				"type": "String"
+			},
+			{
+				"name": "Status",
+				"type": "String"
+			},
+			{
+				"name": "Step",
+				"type": "String"
+			},
+			{
+				"name": "TeamsFollowed",
+				"type": "String"
+			},
+			{
+				"name": "Time Spent by me",
+				"type": "String"
+			},
+			{
+				"name": "Timeline",
+				"type": "String"
+			},
+			{
+				"name": "Total Amount",
+				"type": "String"
+			},
+			{
+				"name": "Total Amount (Base)",
+				"type": "String"
+			},
+			{
+				"name": "Total Detail Amount",
+				"type": "String"
+			},
+			{
+				"name": "Total Detail Amount (Base)",
+				"type": "String"
+			},
+			{
+				"name": "Total Discount Amount",
+				"type": "String"
+			},
+			{
+				"name": "Total Discount Amount (Base)",
+				"type": "String"
+			},
+			{
+				"name": "Total Line Item Discount Amount",
+				"type": "String"
+			},
+			{
+				"name": "Total Line Item Discount Amount (Base)",
+				"type": "String"
+			},
+			{
+				"name": "Total Pre-Freight Amount",
+				"type": "String"
+			},
+			{
+				"name": "Total Pre-Freight Amount (Base)",
+				"type": "String"
+			},
+			{
+				"name": "Total Tax",
+				"type": "String"
+			},
+			{
+				"name": "Total Tax (Base)",
+				"type": "String"
+			},
+			{
+				"name": "Work Order Type",
+				"type": "String"
+			}
+		]
+	}
+}

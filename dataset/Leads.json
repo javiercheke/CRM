@@ -1,5 +1,5 @@
 {
-	"name": "Accounts",
+	"name": "Leads",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureBlobStorage1",
@@ -8,17 +8,17 @@
 		"annotations": [],
 		"type": "Excel",
 		"typeProperties": {
-			"sheetName": "Accounts",
+			"sheetName": "Lead Advanced Find View",
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "Accounts.xlsx",
+				"fileName": "Leads.xlsx",
 				"container": "crmdata"
 			},
 			"firstRowAsHeader": true
 		},
 		"schema": [
 			{
-				"name": "(Do Not Modify) Account",
+				"name": "(Do Not Modify) Lead",
 				"type": "String"
 			},
 			{
@@ -30,27 +30,19 @@
 				"type": "String"
 			},
 			{
-				"name": "Account Name",
+				"name": " Name",
 				"type": "String"
 			},
 			{
-				"name": "Primary Contact",
+				"name": "Company Name",
 				"type": "String"
 			},
 			{
-				"name": "Main Phone",
+				"name": "Business Phone",
 				"type": "String"
 			},
 			{
-				"name": "(Deprecated) Process Stage",
-				"type": "String"
-			},
-			{
-				"name": "Account Number",
-				"type": "String"
-			},
-			{
-				"name": "Account Rating",
+				"name": "(Deprecated) Stage Id",
 				"type": "String"
 			},
 			{
@@ -62,23 +54,11 @@
 				"type": "String"
 			},
 			{
-				"name": "Address 1: City",
-				"type": "String"
-			},
-			{
-				"name": "Address 1: Country/Region",
-				"type": "String"
-			},
-			{
 				"name": "Address 1: County",
 				"type": "String"
 			},
 			{
 				"name": "Address 1: Fax",
-				"type": "String"
-			},
-			{
-				"name": "Address 1: Freight Terms",
 				"type": "String"
 			},
 			{
@@ -98,27 +78,11 @@
 				"type": "String"
 			},
 			{
-				"name": "Address 1: Primary Contact Name",
-				"type": "String"
-			},
-			{
 				"name": "Address 1: Shipping Method",
 				"type": "String"
 			},
 			{
-				"name": "Address 1: State/Province",
-				"type": "String"
-			},
-			{
-				"name": "Address 1: Street 1",
-				"type": "String"
-			},
-			{
-				"name": "Address 1: Street 2",
-				"type": "String"
-			},
-			{
-				"name": "Address 1: Street 3",
+				"name": "Address 1: Telephone 1",
 				"type": "String"
 			},
 			{
@@ -135,10 +99,6 @@
 			},
 			{
 				"name": "Address 1: UTC Offset",
-				"type": "String"
-			},
-			{
-				"name": "Address 1: ZIP/Postal Code",
 				"type": "String"
 			},
 			{
@@ -166,10 +126,6 @@
 				"type": "String"
 			},
 			{
-				"name": "Address 2: Freight Terms",
-				"type": "String"
-			},
-			{
 				"name": "Address 2: Latitude",
 				"type": "String"
 			},
@@ -183,10 +139,6 @@
 			},
 			{
 				"name": "Address 2: Post Office Box",
-				"type": "String"
-			},
-			{
-				"name": "Address 2: Primary Contact Name",
 				"type": "String"
 			},
 			{
@@ -234,34 +186,6 @@
 				"type": "String"
 			},
 			{
-				"name": "Address Phone",
-				"type": "String"
-			},
-			{
-				"name": "Aging 30",
-				"type": "String"
-			},
-			{
-				"name": "Aging 30 (Base)",
-				"type": "String"
-			},
-			{
-				"name": "Aging 60",
-				"type": "String"
-			},
-			{
-				"name": "Aging 60 (Base)",
-				"type": "String"
-			},
-			{
-				"name": "Aging 90",
-				"type": "String"
-			},
-			{
-				"name": "Aging 90 (Base)",
-				"type": "String"
-			},
-			{
 				"name": "Annual Revenue",
 				"type": "String"
 			},
@@ -270,19 +194,35 @@
 				"type": "String"
 			},
 			{
-				"name": "Billing Account",
+				"name": "Budget",
 				"type": "String"
 			},
 			{
-				"name": "Business Type",
+				"name": "Budget Amount",
 				"type": "String"
 			},
 			{
-				"name": "Category",
+				"name": "Budget Amount (Base)",
 				"type": "String"
 			},
 			{
-				"name": "Classification",
+				"name": "Business Card",
+				"type": "String"
+			},
+			{
+				"name": "BusinessCardAttributes",
+				"type": "String"
+			},
+			{
+				"name": "City",
+				"type": "String"
+			},
+			{
+				"name": "Confirm Interest",
+				"type": "String"
+			},
+			{
+				"name": "Country/Region",
 				"type": "String"
 			},
 			{
@@ -294,23 +234,7 @@
 				"type": "String"
 			},
 			{
-				"name": "Created By (External Party)",
-				"type": "String"
-			},
-			{
 				"name": "Created On",
-				"type": "String"
-			},
-			{
-				"name": "Credit Hold",
-				"type": "String"
-			},
-			{
-				"name": "Credit Limit",
-				"type": "String"
-			},
-			{
-				"name": "Credit Limit (Base)",
 				"type": "String"
 			},
 			{
@@ -318,7 +242,11 @@
 				"type": "String"
 			},
 			{
-				"name": "Customer Size",
+				"name": "Customer",
+				"type": "String"
+			},
+			{
+				"name": "Decision Maker?",
 				"type": "String"
 			},
 			{
@@ -327,10 +255,6 @@
 			},
 			{
 				"name": "Do not allow Bulk Emails",
-				"type": "String"
-			},
-			{
-				"name": "Do not allow Bulk Mails",
 				"type": "String"
 			},
 			{
@@ -362,11 +286,27 @@
 				"type": "String"
 			},
 			{
-				"name": "Exchange Rate",
+				"name": "Est. Close Date",
 				"type": "String"
 			},
 			{
-				"name": "External ID",
+				"name": "Est. Value",
+				"type": "String"
+			},
+			{
+				"name": "Est. Value (Base)",
+				"type": "String"
+			},
+			{
+				"name": "Est. Value (deprecated)",
+				"type": "String"
+			},
+			{
+				"name": "Evaluate Fit",
+				"type": "String"
+			},
+			{
+				"name": "Exchange Rate",
 				"type": "String"
 			},
 			{
@@ -374,11 +314,19 @@
 				"type": "String"
 			},
 			{
+				"name": "First Name",
+				"type": "String"
+			},
+			{
 				"name": "Follow Email Activity",
 				"type": "String"
 			},
 			{
-				"name": "FTP Site",
+				"name": "GDPR Optout",
+				"type": "String"
+			},
+			{
+				"name": "Home Phone",
 				"type": "String"
 			},
 			{
@@ -386,7 +334,19 @@
 				"type": "String"
 			},
 			{
-				"name": "Last Date Included in Campaign",
+				"name": "Initial Communication",
+				"type": "String"
+			},
+			{
+				"name": "Job Title",
+				"type": "String"
+			},
+			{
+				"name": "Last Campaign Date",
+				"type": "String"
+			},
+			{
+				"name": "Last Name",
 				"type": "String"
 			},
 			{
@@ -394,15 +354,23 @@
 				"type": "String"
 			},
 			{
-				"name": "Market Capitalization",
+				"name": "Lead Source",
 				"type": "String"
 			},
 			{
-				"name": "Market Capitalization (Base)",
+				"name": "Marketing Material",
 				"type": "String"
 			},
 			{
-				"name": "Marketing Only",
+				"name": "Merged",
+				"type": "String"
+			},
+			{
+				"name": "Middle Name",
+				"type": "String"
+			},
+			{
+				"name": "Mobile Phone",
 				"type": "String"
 			},
 			{
@@ -414,15 +382,15 @@
 				"type": "String"
 			},
 			{
-				"name": "Modified By (External Party)",
-				"type": "String"
-			},
-			{
 				"name": "Modified On",
 				"type": "String"
 			},
 			{
-				"name": "Number of Employees",
+				"name": "Need",
+				"type": "String"
+			},
+			{
+				"name": "No. of Employees",
 				"type": "String"
 			},
 			{
@@ -430,19 +398,7 @@
 				"type": "String"
 			},
 			{
-				"name": "Open Deals",
-				"type": "String"
-			},
-			{
-				"name": "Open Revenue",
-				"type": "String"
-			},
-			{
-				"name": "Open Revenue (Base)",
-				"type": "String"
-			},
-			{
-				"name": "Originating Lead",
+				"name": "Originating Case",
 				"type": "String"
 			},
 			{
@@ -454,23 +410,15 @@
 				"type": "String"
 			},
 			{
-				"name": "Ownership",
+				"name": "Pager",
 				"type": "String"
 			},
 			{
-				"name": "Parent Account",
+				"name": "Parent Account for lead",
 				"type": "String"
 			},
 			{
-				"name": "Payment Terms",
-				"type": "String"
-			},
-			{
-				"name": "Preferred Day",
-				"type": "String"
-			},
-			{
-				"name": "Preferred Facility/Equipment",
+				"name": "Parent Contact for lead",
 				"type": "String"
 			},
 			{
@@ -478,35 +426,31 @@
 				"type": "String"
 			},
 			{
-				"name": "Preferred Resource (Deprecated)",
+				"name": "Priority",
 				"type": "String"
 			},
 			{
-				"name": "Preferred Service",
+				"name": "Process Id",
 				"type": "String"
 			},
 			{
-				"name": "Preferred Time",
+				"name": "Purchase Process",
 				"type": "String"
 			},
 			{
-				"name": "Preferred User",
+				"name": "Purchase Timeframe",
 				"type": "String"
 			},
 			{
-				"name": "Primary Satori ID",
+				"name": "Qualification Comments",
 				"type": "String"
 			},
 			{
-				"name": "Primary Twitter ID",
+				"name": "Qualifying Opportunity",
 				"type": "String"
 			},
 			{
-				"name": "Process",
-				"type": "String"
-			},
-			{
-				"name": "Product Price List",
+				"name": "Rating",
 				"type": "String"
 			},
 			{
@@ -514,27 +458,27 @@
 				"type": "String"
 			},
 			{
-				"name": "Relationship Type",
+				"name": "Related Campaign Response",
 				"type": "String"
 			},
 			{
-				"name": "Sales Tax Code",
+				"name": "Sales Stage",
 				"type": "String"
 			},
 			{
-				"name": "Send Marketing Materials",
+				"name": "Sales Stage Code",
 				"type": "String"
 			},
 			{
-				"name": "Service Territory",
+				"name": "Salutation",
 				"type": "String"
 			},
 			{
-				"name": "Shares Outstanding",
+				"name": "Schedule Follow Up (Prospect)",
 				"type": "String"
 			},
 			{
-				"name": "Shipping Method",
+				"name": "Schedule Follow Up (Qualify)",
 				"type": "String"
 			},
 			{
@@ -546,6 +490,14 @@
 				"type": "String"
 			},
 			{
+				"name": "Source Campaign",
+				"type": "String"
+			},
+			{
+				"name": "State/Province",
+				"type": "String"
+			},
+			{
 				"name": "Status",
 				"type": "String"
 			},
@@ -554,15 +506,15 @@
 				"type": "String"
 			},
 			{
-				"name": "Stock Exchange",
+				"name": "Street 1",
 				"type": "String"
 			},
 			{
-				"name": "Tax Exempt",
+				"name": "Street 2",
 				"type": "String"
 			},
 			{
-				"name": "Tax Exempt Number",
+				"name": "Street 3",
 				"type": "String"
 			},
 			{
@@ -570,35 +522,15 @@
 				"type": "String"
 			},
 			{
-				"name": "Telephone 3",
-				"type": "String"
-			},
-			{
-				"name": "Territory",
-				"type": "String"
-			},
-			{
-				"name": "Territory Code",
-				"type": "String"
-			},
-			{
-				"name": "Ticker Symbol",
-				"type": "String"
-			},
-			{
 				"name": "Time Spent by me",
 				"type": "String"
 			},
 			{
-				"name": "Travel Charge",
+				"name": "Topic",
 				"type": "String"
 			},
 			{
-				"name": "Travel Charge (Base)",
-				"type": "String"
-			},
-			{
-				"name": "Travel Charge Type",
+				"name": "Type",
 				"type": "String"
 			},
 			{
@@ -606,15 +538,27 @@
 				"type": "String"
 			},
 			{
-				"name": "Work Hour Template",
+				"name": "Yomi Company Name",
 				"type": "String"
 			},
 			{
-				"name": "Work Order Instructions",
+				"name": "Yomi First Name",
 				"type": "String"
 			},
 			{
-				"name": "Yomi Account Name",
+				"name": "Yomi Full Name",
+				"type": "String"
+			},
+			{
+				"name": "Yomi Last Name",
+				"type": "String"
+			},
+			{
+				"name": "Yomi Middle Name",
+				"type": "String"
+			},
+			{
+				"name": "ZIP/Postal Code",
 				"type": "String"
 			}
 		]

@@ -1,0 +1,314 @@
+{
+	"name": "Competitor",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Competitor",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Competitor.xlsx",
+				"container": "crmdata"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "(Do Not Modify) Competitor ",
+				"type": "String"
+			},
+			{
+				"name": "(Do Not Modify) Row Checksum",
+				"type": "String"
+			},
+			{
+				"name": "(Do Not Modify) Modified On",
+				"type": "String"
+			},
+			{
+				"name": "Name",
+				"type": "String"
+			},
+			{
+				"name": "Website",
+				"type": "String"
+			},
+			{
+				"name": "(Deprecated) Stage Id",
+				"type": "String"
+			},
+			{
+				"name": "Address 1",
+				"type": "String"
+			},
+			{
+				"name": "Address 1: Address Type",
+				"type": "String"
+			},
+			{
+				"name": "Address 1: County",
+				"type": "String"
+			},
+			{
+				"name": "Address 1: Fax",
+				"type": "String"
+			},
+			{
+				"name": "Address 1: Latitude",
+				"type": "String"
+			},
+			{
+				"name": "Address 1: Longitude",
+				"type": "String"
+			},
+			{
+				"name": "Address 1: Name",
+				"type": "String"
+			},
+			{
+				"name": "Address 1: Post Office Box",
+				"type": "String"
+			},
+			{
+				"name": "Address 1: Shipping Method",
+				"type": "String"
+			},
+			{
+				"name": "Address 1: Telephone 1",
+				"type": "String"
+			},
+			{
+				"name": "Address 1: Telephone 2",
+				"type": "String"
+			},
+			{
+				"name": "Address 1: Telephone 3",
+				"type": "String"
+			},
+			{
+				"name": "Address 1: UPS Zone",
+				"type": "String"
+			},
+			{
+				"name": "Address 1: UTC Offset",
+				"type": "String"
+			},
+			{
+				"name": "Address 2",
+				"type": "String"
+			},
+			{
+				"name": "Address 2: Address Type",
+				"type": "String"
+			},
+			{
+				"name": "Address 2: City",
+				"type": "String"
+			},
+			{
+				"name": "Address 2: Country/Region",
+				"type": "String"
+			},
+			{
+				"name": "Address 2: County",
+				"type": "String"
+			},
+			{
+				"name": "Address 2: Fax",
+				"type": "String"
+			},
+			{
+				"name": "Address 2: Latitude",
+				"type": "String"
+			},
+			{
+				"name": "Address 2: Longitude",
+				"type": "String"
+			},
+			{
+				"name": "Address 2: Name",
+				"type": "String"
+			},
+			{
+				"name": "Address 2: Post Office Box",
+				"type": "String"
+			},
+			{
+				"name": "Address 2: Shipping Method",
+				"type": "String"
+			},
+			{
+				"name": "Address 2: State/Province",
+				"type": "String"
+			},
+			{
+				"name": "Address 2: Street 1",
+				"type": "String"
+			},
+			{
+				"name": "Address 2: Street 2",
+				"type": "String"
+			},
+			{
+				"name": "Address 2: Street 3",
+				"type": "String"
+			},
+			{
+				"name": "Address 2: Telephone 1",
+				"type": "String"
+			},
+			{
+				"name": "Address 2: Telephone 2",
+				"type": "String"
+			},
+			{
+				"name": "Address 2: Telephone 3",
+				"type": "String"
+			},
+			{
+				"name": "Address 2: UPS Zone",
+				"type": "String"
+			},
+			{
+				"name": "Address 2: UTC Offset",
+				"type": "String"
+			},
+			{
+				"name": "Address 2: ZIP/Postal Code",
+				"type": "String"
+			},
+			{
+				"name": "City",
+				"type": "String"
+			},
+			{
+				"name": "Country/Region",
+				"type": "String"
+			},
+			{
+				"name": "Created By",
+				"type": "String"
+			},
+			{
+				"name": "Created By (Delegate)",
+				"type": "String"
+			},
+			{
+				"name": "Created On",
+				"type": "String"
+			},
+			{
+				"name": "Currency",
+				"type": "String"
+			},
+			{
+				"name": "Exchange Rate",
+				"type": "String"
+			},
+			{
+				"name": "Key Product",
+				"type": "String"
+			},
+			{
+				"name": "Modified By",
+				"type": "String"
+			},
+			{
+				"name": "Modified By (Delegate)",
+				"type": "String"
+			},
+			{
+				"name": "Modified On",
+				"type": "String"
+			},
+			{
+				"name": "Opportunity",
+				"type": "String"
+			},
+			{
+				"name": "Overview",
+				"type": "String"
+			},
+			{
+				"name": "Process Id",
+				"type": "String"
+			},
+			{
+				"name": "Record Created On",
+				"type": "String"
+			},
+			{
+				"name": "Reference Info URL",
+				"type": "String"
+			},
+			{
+				"name": "Reported Revenue",
+				"type": "String"
+			},
+			{
+				"name": "Reported Revenue (Base)",
+				"type": "String"
+			},
+			{
+				"name": "Reporting Quarter",
+				"type": "String"
+			},
+			{
+				"name": "Reporting Year",
+				"type": "String"
+			},
+			{
+				"name": "State/Province",
+				"type": "String"
+			},
+			{
+				"name": "Stock Exchange",
+				"type": "String"
+			},
+			{
+				"name": "Street 1",
+				"type": "String"
+			},
+			{
+				"name": "Street 2",
+				"type": "String"
+			},
+			{
+				"name": "Street 3",
+				"type": "String"
+			},
+			{
+				"name": "Strength",
+				"type": "String"
+			},
+			{
+				"name": "Threat",
+				"type": "String"
+			},
+			{
+				"name": "Ticker Symbol",
+				"type": "String"
+			},
+			{
+				"name": "Weakness",
+				"type": "String"
+			},
+			{
+				"name": "Win Percentage",
+				"type": "String"
+			},
+			{
+				"name": "Yomi Name",
+				"type": "String"
+			},
+			{
+				"name": "ZIP/Postal Code",
+				"type": "String"
+			}
+		]
+	}
+}
