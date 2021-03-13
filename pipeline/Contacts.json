@@ -31,6 +31,52 @@
 					"enableStaging": false,
 					"translator": {
 						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "(Do Not Modify) Contact",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "contactid",
+									"type": "Guid"
+								}
+							},
+							{
+								"source": {
+									"name": "Last Name",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "lastname",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Business Phone",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "address1_telephone1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Email",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "emailaddress1",
+									"type": "String"
+								}
+							}
+						],
 						"typeConversion": true,
 						"typeConversionSettings": {
 							"allowDataTruncation": true,
