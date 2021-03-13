@@ -1,0 +1,21 @@
+{
+	"name": "Excel1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Accounts",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Accounts.xlsx",
+				"container": "crmdata"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": []
+	}
+}
