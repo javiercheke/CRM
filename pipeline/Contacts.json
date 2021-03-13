@@ -61,8 +61,7 @@
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "address1_telephone1",
-									"type": "String"
+									"name": "telephone1"
 								}
 							},
 							{
