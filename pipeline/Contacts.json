@@ -35,7 +35,6 @@
 							{
 								"source": {
 									"name": "(Do Not Modify) Contact",
-									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
@@ -46,7 +45,6 @@
 							{
 								"source": {
 									"name": "Last Name",
-									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
@@ -57,17 +55,16 @@
 							{
 								"source": {
 									"name": "Business Phone",
-									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "telephone1"
+									"name": "telephone1",
+									"type": "String"
 								}
 							},
 							{
 								"source": {
 									"name": "Email",
-									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
