@@ -1,0 +1,14 @@
+{
+	"name": "AzureDataLakeStore1Contactos",
+	"properties": {
+		"description": "Contactos Excel",
+		"annotations": [],
+		"type": "AzureDataLakeStore",
+		"typeProperties": {
+			"dataLakeStoreUri": "https://datalaketest321.azuredatalakestore.net/webhdfs/v1",
+			"tenant": "3048dc87-43f0-4100-9acb-ae1971c79395",
+			"subscriptionId": "b54279bc-c876-444b-a759-13d5529f0caf",
+			"resourceGroupName": "ETLplus"
+		}
+	}
+}
