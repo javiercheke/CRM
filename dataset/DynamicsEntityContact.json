@@ -1,0 +1,15 @@
+{
+	"name": "DynamicsEntityContact",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DynamicsCRM",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DynamicsEntity",
+		"schema": [],
+		"typeProperties": {
+			"entityName": "contact"
+		}
+	}
+}
